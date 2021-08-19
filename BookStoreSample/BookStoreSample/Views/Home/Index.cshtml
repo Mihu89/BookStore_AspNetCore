@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    var currentDate = DateTime.Now;
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+
+    <img src="~/images/noimage.png" alt="Alternate Text" />
+    <button class="btn btn-primary"> Click Me</button>
+    <p>@currentDate</p>
+    @{
+        for (int i = 0; i < 5; i++)
+        {
+            <p>We learn AspNetCore5.0</p>
+        }
+    }
+</div>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script>
+    //$(document).ready(function () {
+    //    alert("Page loaded");
+    //});
+    jQuery(function () {
+        alert("Page loaded");
+    });
+</script>
