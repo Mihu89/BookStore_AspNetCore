@@ -1,6 +1,8 @@
-﻿using BookStoreSample.Models;
+﻿using BookStoreSample.Data;
+using BookStoreSample.Models;
 using BookStoreSample.Repos;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Linq;
